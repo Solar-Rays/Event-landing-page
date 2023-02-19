@@ -1,0 +1,196 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main {
+    height: 100vh;
+    background-image: url(/images/Some_text.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding: 18%; */
+}
+
+.main > div {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    /* background-position: center; */
+    padding: 30vh auto;
+    height: 100%;
+    align-items: center;
+}
+
+.main-space {
+    width: 50%;
+}
+
+.main > div > div {
+    text-align: left;
+}
+
+.main-info {
+    max-width: 40%; 
+    margin-top: 3%;
+}
+
+.main-date {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: small;
+    padding-top: 23%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.main-info h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5.8rem;
+    padding-bottom: 5%;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+}
+
+#main-info-button {
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 10px;
+    width: 7.5rem;
+    padding: .6rem .5rem .6rem .8rem;
+    border: solid rgb(255, 255, 255) 2px;
+    background-color: rgba(0, 0, 0, .15);
+    border-radius: 3px;
+    text-align: center;
+    margin-bottom: 15%;
+    color: #fff;
+}
+
+#main-info-button:hover {
+    background-color: #fff;
+    color: rgba(0, 0, 0, .8);
+    font-weight: 600;
+}
+
+.summary, footer {
+    background-color: #1b1c1d;
+    color: #dae6e6;
+}
+
+.summary > div, .footer > div {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.summary {
+    padding: 10rem;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .7em;
+    line-height: 2em;
+    font-size: 12px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.col-info {
+    font-family: 'Poly', serif;
+    font-size: 2rem;
+    font-weight: 500;
+    padding-top: 1.3rem;
+}
+
+.footer > div {
+    padding: 0 0 3rem 0;
+    align-items: center;
+    display: flex;
+}
+
+.contact-container {
+    padding: 0 10rem 0 0;
+    text-align: left;
+}
+
+.event-info {
+    margin-bottom: 4rem;
+}
+
+.event-info > h2, .program-container > h2 ,  #landingPageForm > h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.event-info > p {
+    font-family: 'Poly', serif;
+    font-size: 1.1rem;
+}
+
+.program-container {
+    text-align: center;
+}
+
+.program-item {
+    margin-bottom: 2rem;
+}
+
+.program-item > p {
+    margin: 0;
+    font-family: 'Poly', serif;
+    font-size: 1.1rem;
+}
+
+/* Form Style */
+
+.form-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.form-name input {
+    width: 49%;
+    border-radius: 5px;
+    height: 2rem;
+    padding: 1.4rem;
+    font-size: 1.1rem;
+    font-family: 'poly', serif;
+}
+
+#emailInput {
+    border-radius: 5px;
+    height: 2rem;
+    padding: 1.4rem;
+    font-size: 1.1rem;
+    font-family: 'poly', serif;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+form button {
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 10px;
+    width: 7.5rem;
+    padding: .6rem .5rem .6rem .8rem;
+    border: solid rgb(255, 255, 255) 2px;
+    background-color: rgba(0, 0, 0, .15);
+    border-radius: 3px;
+    text-align: center;
+    margin-bottom: 15%;
+    color: #dae6e6;
+}
