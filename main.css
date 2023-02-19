@@ -91,7 +91,7 @@ body, html {
 }
 
 .summary {
-    padding: 10rem;
+    padding: 10rem 0;
 }
 
 .title {
@@ -113,8 +113,13 @@ body, html {
 
 .footer > div {
     padding: 0 0 3rem 0;
-    align-items: center;
+    /* align-items: center; */
     display: flex;
+}
+
+.row {
+    width: 80%;
+    max-width: 1440px;
 }
 
 .contact-container {
@@ -140,7 +145,7 @@ body, html {
 }
 
 .program-container {
-    text-align: center;
+    text-align: right;
 }
 
 .program-item {
